@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Peppa Pig</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,0,0" />
+</head>
+<body id="home">
+    <header class="header">
+        <section class="header-content"> 
+            <h4 class="header-content-hello">Hello, I am</h4>
+            <h1 class="header-content-title">Peppa Pig</h1>
+            <h6 class="header-content-occupation">Future Full Stack Developer</h6>
+        </section>
+    </header>
+    <nav class="nav-bar">
+        <ul class="nav-list">
+            <li class="nav-item nav-item-link home">
+                <a href="#home">Home</a>
+            </li>
+            <li class="nav-item nav-item-link">
+                <a href="#about">About</a>
+            </li>
+            <li class="nav-item nav-item-link">
+                <a href="#resume">Resume</a>
+            </li>
+            <li class="nav-item nav-item-avatar">
+                <img src="./assets/imgs/peppa-avatar.jpg" alt="avatar image of pepppa">
+            </li>
+            <li id="logo-title" class="hide">
+                <p>Olena<br>Pashchenko</p>
+            </li>
+            <li class="nav-item nav-item-link">
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item nav-item-link">
+                <a href="#blog">Blog</a>
+            </li>
+            <li class="nav-item nav-item-link">
+                <a href="#contact">Contact</a>
+            </li>
+            <li class="nav-item" id="nav-toggle">
+                <span class="material-symbols-rounded">
+                menu
+                </span>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>&#x2022; About me</h2>
+            <p>
+                My name is Olena Pashchenko.<br>I'm a Berkeley University Coding Bootcamp student.
+            </p>
+        </section>
+        <section id="resume">
+            <h2>&#x2022; My Resume</h2>
+            <p>
+                To be added...
+            </p>
+        </section>
+        <section id="portfolio">
+            <h2>&#x2022; My Portfolio</h2>
+                <div class="portfolio-div">
+                    <h3>Global Weather Forecast</h3>
+                    <img class="portfolio-img float-left" src="./assets/imgs/Global Weather Forecast.png" alt="A web-based application that offers global weather forecast.">
+                    <p>The Global Weather Forecast application is a valuable tool that provides users with current and 5-day weather forecasts for locations worldwide. The application makes use of the openweathermap.com API, which supplies accurate and real-time weather data, including temperature, wind speed, humidity, and weather icons that indicate the current weather condition. By utilizing this information, users can make informed decisions and plan their activities accordingly. The web application also includes a feature that stores the names of previously searched cities in the user's browser local storage. Up to 10 objects containing data for each city are saved, with the most recent search displayed at the top of the history buttons. The user is able to easily access this history and delete it if desired. If the user chooses to delete the history, all data associated with the previously searched cities will be removed from both the local storage and the page.</p>
+                </div>
+                <div class="portfolio-div">
+                    <h3>Password Generator</h3>
+                    <img class="portfolio-img float-right" src="./assets/imgs/Password Generator.png" alt="A web-based application that offers global pollution data.">
+                    <p>The Password generator web application was created to produce secure passwords for staff members. Once "generate password" button is clicked, the user is prompted to select which types of characters they would like to include in their password, such as uppercase and lowercase letters, numbers, or special characters. Additionally, the user must specify the desired password length within the range of 8 to 128 characters. The password generator guarantees that at least one symbol of each character type is included in the password and then shuffles it again for enhanced security before presenting it to the user. To improve the user experience, the password generator features a "copy" button, allowing users to effortlessly copy the password to the clipboard.</p>
+                </div>
+                <div class="portfolio-div">
+                    <h3>Coding Quiz Challenge</h3>
+                    <img class="portfolio-img float-left" src="./assets/imgs/Coding Quiz.png" alt="A web-based application that offers global weather forecast.">
+                    <p>The Code Quiz web application offers users a dropdown menu to select from three coding subjects: HTML, JavaScript, and CSS. Each subject has six questions, and for each question, the user is presented with four answer options in a button format. Once the user chooses a subject and clicks the start button, a 60-second countdown timer begins. If the user selects an answer button, the background color and the chosen button element will change to red if the answer is incorrect, or green if it is correct. If the user selects a wrong answer, 10 seconds will be deducted from the remaining time. The next set of questions and answers automatically loads when the user selects an answer button. The quiz ends when the user answers all questions within the time limit or when the timer reaches zero. At the end of the quiz, the user receives their result as a percentage, with 100% being the highest score achievable. Users are asked to enter their initials to save their result on the High Score Board. If the user provides their initials, the quiz result is saved to Local Storage. The High Score Board is accessible at any time, even after page reload, unless the user clicks the Clear High Scores button, which deletes all Quiz Results data from Local Storage.</p>
+                </div>
+                <div class="portfolio-div">
+                    <h3>Sneeze the day</h3>
+                    <img class="portfolio-img float-right" src="./assets/imgs/Pollution Project.png" alt="A web-based application that offers global pollution data.">
+                    <p>This web application utilizes the openweathermap.org API to provide up-to-date pollution data for any given city that is entered by the user. Additionally, the Giphy.com API is used to display a relevant GIF indicating the air quality of the area, such as a sneezing GIF for poor air quality or a happy GIF for good air quality. The web application also includes a feature that stores the names of previously searched cities in the user's browser local storage. Up to 10 objects containing data for each city are saved, with the most recent search displayed at the top of the history buttons. The user is able to easily access this history and delete it if desired. If the user chooses to delete the history, all data associated with the previously searched cities will be removed from both the local storage and the page.</p>
+                </div>
+        </section>
+        <section id="blog">
+            <h2>&#x2022; My blog</h2>
+            <p>
+                To be added...
+            </p>
+        </section>
+        <section id="contact">
+            <h2>&#x2022; Contact Me</h2>
+                <ul>
+                    <li>Phone number: <a href="tel:+7023456789">+7023456789</a></li>
+                    <li>Email: <a href="mailto:">olena.pashchenko@email.com</a></li>
+                    <li>Git-Hub: <a target="_blank" href="https://github.com/UserOlena">UserOlena</a></li>
+                </ul>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/UserOlena" target="_blank">
+            <img src="./assets/imgs/GitHub-Mark-Light-64px.png" alt="git-hub-logo-light-version">
+        </a>
+    </footer> 
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
