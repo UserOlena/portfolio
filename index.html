@@ -17,31 +17,29 @@
             <h6 class="header-content-occupation">Future Full Stack Developer</h6>
         </section>
     </header>
-    <nav class="nav-bar">
-        <ul class="nav-list">
-            <li class="nav-item nav-item-link home">
-                <a href="#home">Home</a>
+    <nav id="nav-bar">
+        <ul id="nav-list">
+            <li class="nav-item nav-item-link border-top">
+                <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item nav-item-link">
-                <a href="#about">About</a>
+                <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item nav-item-link">
-                <a href="#resume">Resume</a>
+                <a class="nav-link" href="#resume">Resume</a>
             </li>
             <li class="nav-item nav-item-avatar">
-                <img src="./assets/imgs/peppa-avatar.jpg" alt="avatar image of pepppa">
-            </li>
-            <li id="logo-title" class="hide">
-                <p>Olena<br>Pashchenko</p>
+                <img id="logo-img" src="./assets/imgs/peppa-avatar.jpg" alt="avatar image of pepppa">
+                <p id="logo-title">Olena<br>Pashchenko</p>
             </li>
             <li class="nav-item nav-item-link">
-                <a href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item nav-item-link">
-                <a href="#blog">Blog</a>
+                <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item nav-item-link">
-                <a href="#contact">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item" id="nav-toggle">
                 <span class="material-symbols-rounded">
@@ -67,22 +65,22 @@
             <h2>&#x2022; My Portfolio</h2>
                 <div class="portfolio-div">
                     <h3><a href="https://userolena.github.io/global-weather-forecast/" target="_blank">Global Weather Forecast</a></h3>
-                    <img class="portfolio-img float-left" src="./assets/imgs/Global Weather Forecast.png" alt="A web-based application that offers global weather forecast.">
+                    <a href="https://userolena.github.io/global-weather-forecast/" target="_blank"><img class="portfolio-big-img" src="./assets/imgs/Global Weather Forecast.png" alt="A web-based application that offers global weather forecast."></a>
                     <p>The Global Weather Forecast application is a valuable tool that provides users with current and 5-day weather forecasts for locations worldwide. The application makes use of the openweathermap.com API, which supplies accurate and real-time weather data, including temperature, wind speed, humidity, and weather icons that indicate the current weather condition. By utilizing this information, users can make informed decisions and plan their activities accordingly. The web application also includes a feature that stores the names of previously searched cities in the user's browser local storage. Up to 10 objects containing data for each city are saved, with the most recent search displayed at the top of the history buttons. The user is able to easily access this history and delete it if desired. If the user chooses to delete the history, all data associated with the previously searched cities will be removed from both the local storage and the page. The repository for this project can be found <a href="https://github.com/UserOlena/global-weather-forecast" target="_blank">here</a>.</p>
                 </div>
                 <div class="portfolio-div">
                     <h3><a href="https://userolena.github.io/password-generator/" target="_blank">Password Generator</a></h3>
-                    <img class="portfolio-img float-right" src="./assets/imgs/Password Generator.png" alt="A web-based application that offers global pollution data.">
+                    <a href="https://userolena.github.io/password-generator/" target="_blank"><img class="portfolio-img float-left" src="./assets/imgs/Password Generator.png" alt="A web-based application for creating secure password generator."></a>
                     <p>The Password generator web application was created to produce secure passwords for staff members. Once "generate password" button is clicked, the user is prompted to select which types of characters they would like to include in their password, such as uppercase and lowercase letters, numbers, or special characters. Additionally, the user must specify the desired password length within the range of 8 to 128 characters. The password generator guarantees that at least one symbol of each character type is included in the password and then shuffles it again for enhanced security before presenting it to the user. To improve the user experience, the password generator features a "copy" button, allowing users to effortlessly copy the password to the clipboard. The repository for this project can be found <a href="https://github.com/UserOlena/password-generator" target="_blank">here</a>.</p>
                 </div>
                 <div class="portfolio-div">
                     <h3><a href="https://userolena.github.io/coding-quiz-challenge/" target="_blank">Coding Quiz Challenge</a></h3>
-                    <img class="portfolio-img float-left" src="./assets/imgs/Coding Quiz.png" alt="A web-based application that offers global weather forecast.">
+                    <a href="https://userolena.github.io/coding-quiz-challenge/" target="_blank"></a><img class="portfolio-img float-right" src="./assets/imgs/Coding Quiz.png" alt="A web-based coding quiz challenge."></a>
                     <p>The Code Quiz web application offers users a dropdown menu to select from three coding subjects: HTML, JavaScript, and CSS. Each subject has six questions, and for each question, the user is presented with four answer options in a button format. Once the user chooses a subject and clicks the start button, a 60-second countdown timer begins. If the user selects an answer button, the background color and the chosen button element will change to red if the answer is incorrect, or green if it is correct. If the user selects a wrong answer, 10 seconds will be deducted from the remaining time. The next set of questions and answers automatically loads when the user selects an answer button. The quiz ends when the user answers all questions within the time limit or when the timer reaches zero. At the end of the quiz, the user receives their result as a percentage, with 100% being the highest score achievable. Users are asked to enter their initials to save their result on the High Score Board. If the user provides their initials, the quiz result is saved to Local Storage. The High Score Board is accessible at any time, even after page reload, unless the user clicks the Clear High Scores button, which deletes all Quiz Results data from Local Storage. The repository for this project can be found <a href="https://github.com/UserOlena/coding-quiz-challenge" target="_blank">here</a>.</p>
                 </div>
                 <div class="portfolio-div">
                     <h3><a href="https://zed-csp.github.io/dangerForce-Proj-1/" target="_blank">Sneeze the day</a></h3> 
-                    <img class="portfolio-img float-right" src="./assets/imgs/Pollution Project.png" alt="A web-based application that offers global pollution data.">
+                    <a href="https://zed-csp.github.io/dangerForce-Proj-1/" target="_blank"></a><img class="portfolio-img float-left" src="./assets/imgs/Pollution Project.png" alt="A web-based application that offers global pollution data."></a>
                     <p>This web application utilizes the openweathermap.org API to provide up-to-date pollution data for any given city that is entered by the user. Additionally, the Giphy.com API is used to display a relevant GIF indicating the air quality of the area, such as a sneezing GIF for poor air quality or a happy GIF for good air quality. The web application also includes a feature that stores the names of previously searched cities in the user's browser local storage. Up to 10 objects containing data for each city are saved, with the most recent search displayed at the top of the history buttons. The user is able to easily access this history and delete it if desired. If the user chooses to delete the history, all data associated with the previously searched cities will be removed from both the local storage and the page. The repository for this project can be found <a href="https://github.com/Zed-CSP/dangerForce-Proj-1" target="_blank">here</a>.</p>
                 </div>
         </section>
@@ -105,7 +103,10 @@
         <a href="https://github.com/UserOlena" target="_blank">
             <img src="./assets/imgs/GitHub-Mark-Light-64px.png" alt="git-hub-logo-light-version">
         </a>
-    </footer> 
-<script src="./assets/js/script.js"></script>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
 </body>
 </html>
