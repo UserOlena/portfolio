@@ -193,6 +193,7 @@ section h2 {
     width: 90%;
     margin: 0 5% 3% 5%;
     box-shadow: 5px 5px 9px 8px rgba(43, 43, 43, 0.6);
+    margin: 0 5% 3% 5%;
 }
 
 .portfolio-img {
@@ -298,7 +299,7 @@ footer a img {
     
     .nav-item-avatar {
         order: 1;
-        width: 6%;
+        width: 5%;
         margin: 0.5% auto 0.5% 5%;
     }
 
@@ -346,8 +347,8 @@ footer a img {
 
     .portfolio-big-img {
         width: 100%;
-        margin: 0 5% 3% 5%;
         box-shadow: -5px 5px 9px 4px rgba(43, 43, 43, 0.6);
+        margin: 0 0 5% 0;
     }
 }
 
@@ -396,7 +397,7 @@ footer a img {
     }
 
     .portfolio-big-img:hover {
-        box-shadow: 5px 5px 9px 4px rgba(0, 0, 0, 0.6);
+        box-shadow: 5px 5px 9px 8px rgba(0, 0, 0, 0.6);
     }
 
     #contact a:hover {

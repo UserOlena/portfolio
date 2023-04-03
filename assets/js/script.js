@@ -22,25 +22,28 @@ $(document).ready(function() {
 
     // function hides or show nav logoImg based on its Y position on the page
     const hideShowLogoImg = () => {
-        let rect = navList[0].getBoundingClientRect();
-        const logoImg = $('#logo-img');
-        const logoTitle = $('#logo-title');
+         // an if statement checks whether the screen size is greater than 850 pixels in order to perform the animation.
+        if ($(window).width() >= 900 ) {
+            let rect = navList[0].getBoundingClientRect();
+            const logoImg = $('#logo-img');
+            const logoTitle = $('#logo-title');
 
-        if (rect.top < 12) {
-            logoTitle.fadeTo(1000, 1);
-            logoImg.fadeTo(1000, 0);
-        } else if (rect.top >= 12) {
+            if (rect.top < 12) {
+                logoTitle.fadeTo(1000, 1);
+                logoImg.fadeTo(1000, 0);
+            } else if (rect.top >= 12) {
+                logoTitle.fadeTo(1000, 0);
+                logoImg.fadeTo(1000, 1);
+            }
+        } else {
             logoTitle.fadeTo(1000, 0);
             logoImg.fadeTo(1000, 1);
         }
     }
 
-
-    // an if statement checks whether the screen size is greater than 850 pixels in order to perform the animation.
-    if ($(window).width() >= 850 ) {
-        // function triggers hideShowLogoImg to check position of the nav-bar on the screen
-        setInterval(hideShowLogoImg, 1000);
-    }
+   
+    // function triggers hideShowLogoImg to check position of the nav-bar on the screen
+    setInterval(hideShowLogoImg, 1000);
 
 
     toggle.click(toggleMenu);

@@ -1,5 +1,5 @@
 # Portfolio
->The development of the Portfolio website was part of the Berkeley Coding Bootcamp Challenge 2. This website comprises a hero image, a navigation bar that includes different sections such as home, about, resume, portfolio, blog, and contact, and a small avatar image located at the center. All of the mentioned sections are included in the website. The development of the application was done accordingly to [user story](#user-tory) and [acceptance criteria](#acceptance-criteria).
+>The development of the Portfolio website was part of the Berkeley Coding Bootcamp Challenge 2. This website comprises a hero image, a navigation bar that includes different sections such as home, about, resume, portfolio, blog, and contact, and a small avatar image located at the center. All of the mentioned sections are included in the website. The development of the application was done accordingly to [user story](#user-story) and [acceptance criteria](#acceptance-criteria).
 
 > Live demo [_here_](https://userolena.github.io/portfolio/).
 
