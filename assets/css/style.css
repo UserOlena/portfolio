@@ -168,7 +168,7 @@ section h2 {
     font-weight: 700;
 }
 
-.portfolio-div h3 a::after {
+.portfolio-div h3 a::before {
     display: inline-block;
     content: '';
     background: url(../imgs/link.png) no-repeat;
